@@ -1,0 +1,35 @@
+*{
+    color: black;
+    font-family: "Lobster", cursive;
+}
+#logo{
+    padding:2%;
+    font-size: 2rem;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size:cover;
+    font-family: "Heebo", sans-serif;
+}
+nav ul{
+    text-decoration: none;
+    text-align: right;
+    list-style: none;
+    display:flex;
+}
+nav ul li{
+    padding-left: 8px;
+    display:flex;
+    height: 20vh;
+    width: auto;
+}
+#main{
+    font-weight: bolder;
+    position: absolute;
+    top:30%;
+    left:50%;
+    color:darkgreen;
+    transform: translate(-50%,-30%);
+    font-family: "Lobster", cursive;
+}
